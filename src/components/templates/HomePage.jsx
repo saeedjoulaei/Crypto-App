@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import TableCoin from "../modules/Tablecoin";
-import { getCoinList } from "../../../services/cryptoApi";
+import TableCoin from "../modules/TableCoin";
+import { getCoinList } from "../../services/cryptoApi";
 
 function HomePage() {
   const [coins, setcoins] = useState([]);
